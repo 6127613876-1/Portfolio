@@ -110,7 +110,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="https://portfolio-1ex.pages.dev/"
+                  href="http://portfolio.gokulcb.com/"
                   className="text-pink-400 hover:text-pink-300 transition-colors my-4"
                 >
                   View Project →
