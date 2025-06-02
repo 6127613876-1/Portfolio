@@ -8,7 +8,6 @@ export const About = () => {
   const socialLinks = [
     { name: "GitHub", url: "https://github.com/6127613876-1" },
     { name: "LinkedIn", url: "https://www.linkedin.com/in/gpriyan/" },
-    { name: "X", url: "https://x.com/gokulpriyan781" },
     { name: "Instagram", url: "https://www.instagram.com/itz_gokul_cbg/?hl=en" },
   ];
 
@@ -77,9 +76,9 @@ export const About = () => {
                 </div>
               </div>
               {/* Social Links
-              <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4">Social Links</h3>
-                <div className="flex flex-wrap gap-2">
+              <div className="rounded-xl p-6 hover:-translate-y-1 transition-all ml-56">
+                <h3 className="text-xl  font-bold mb-4">Social Links</h3>
+                <div className="flex flex-auto gap-2">
                   {socialLinks.map((social, key) => (
                     <a
                       key={key}
