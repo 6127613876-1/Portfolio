@@ -1,9 +1,10 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
-  const frontendSkills = ["React", "JavaScript", "TailwindCSS", "Angular"];
-  const backendSkills = ["Node.js", "Python", "Firebase", "MongoDB"];
-  const otherSkills = ["Git", "Figma", "Blender", "Photoshop"];
+  const frontendSkills = ["React", "JavaScript", "TailwindCSS"];
+  const backendSkills = ["Node.js", "Python"];
+  const databaseskills = ["Firebase","MySql"];
+  const otherSkills = ["Git", "Figma","Photoshop"];
   const socialLinks = [
     { name: "GitHub", url: "https://github.com/6127613876-1" },
     { name: "LinkedIn", url: "https://www.linkedin.com/in/gpriyan/" },
@@ -55,17 +56,27 @@ export const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
               {/* Other Skills */}
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4">Other Skills</h3>
+                <h3 className="text-xl font-bold mb-4">DBMS</h3>
                 <div className="flex flex-wrap gap-2">
-                  {otherSkills.map((tech, key) => (
+                  {databaseskills.map((tech, key) => (
                     <span key={key} className="bg-pink-500/10 text-pink-400 py-1 px-3 rounded-full text-sm hover:bg-pink-500/20 transition">
                       {tech}
                     </span>
                   ))}
                 </div>
               </div>
-
-              {/* Social Links */}
+                 
+              <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+                <h3 className="text-xl font-bold mb-4">Other Skills</h3>
+                <div className="flex flex-wrap gap-2">
+                  {otherSkills.map((other, key) => (
+                    <span key={key} className="bg-pink-500/10 text-pink-400 py-1 px-3 rounded-full text-sm hover:bg-pink-500/20 transition">
+                      {other}
+                    </span>
+                  ))}
+                </div>
+              </div>
+              {/* Social Links
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                 <h3 className="text-xl font-bold mb-4">Social Links</h3>
                 <div className="flex flex-wrap gap-2">
@@ -81,7 +92,7 @@ export const About = () => {
                     </a>
                   ))}
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* Education & Achievements */}
