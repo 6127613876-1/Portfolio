@@ -33,6 +33,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="https://www.e-learning.gokulcb.com/"
+                  target="blank"
                   className="text-pink-400 hover:text-pink-300 transition-colors my-4"
                 >
                   View Project →
@@ -47,13 +48,12 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">Decentralized CrowdFunding</h3>
+              <h3 className="text-xl font-bold mb-2">SBW Trust</h3>
               <p className="text-gray-400 mb-4">
-              Developed a decentralized crowdfunding web app enabling secure,
-               transparent fundraising with blockchain technology.
+               SBW Trust, a non-profit organization dedicated to education and empowerment.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Solidity", "MetaMask", "ThirdWeb"].map((tech, key) => (
+                {["HTML", "CSS", "JS", "Bootstrap"].map((tech, key) => (
                   <span
                     key={key}
                     className="
@@ -70,7 +70,8 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://www.sbwtrust.org/"
+                  target="blank"
                   className="text-pink-400 hover:text-pink-300 transition-colors my-4"
                 >
                   View Project →
@@ -111,6 +112,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="https://www.portfolio.gokulcb.com/"
+                  target="blank"
                   className="text-pink-400 hover:text-pink-300 transition-colors my-4"
                 >
                   View Project →
@@ -150,6 +152,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center ">
                 <a
                   href="https://github.com/6127613876-1/fakenews"
+                  target="blank"
                   className="text-pink-400 hover:text-pink-300 transition-colors my-4"
                 >
                   View Project →
