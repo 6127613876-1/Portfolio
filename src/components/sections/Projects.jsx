@@ -33,12 +33,55 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="https://www.e-learning.gokulcb.com/"
+                  target="blank"
                   className="text-pink-400 hover:text-pink-300 transition-colors my-4"
                 >
                   View Project →
                 </a>
               </div>
             </div>
+
+<div
+              className="
+              glass p-6 rounded-xl border border-white/10 
+              hover:-translate-y-1 hover:border-pink-500/30
+              hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
+              transition-all
+            "
+            >
+              <h3 className="text-xl font-bold mb-2">Conclave Web Application</h3>
+              <p className="text-gray-400 mb-4">
+              Developed a dynamic Conclave web application for college events
+               featuring real-time event updates, admin management panel.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["React", "Firebase", "TailWindCSS"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="
+                      bg-pink-500/10 text-pink-500 py-1 px-3 
+                      rounded-full text-sm
+                      transition
+                      hover:bg-pink-500/20 hover:-translate-y-0.5
+                      hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]
+                    "
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <br/>
+              <div className="flex justify-between items-center ">
+                <a
+                  href="https://conclave.gokulcb.com/"
+                  target="blank"
+                  className="text-pink-400 hover:text-pink-300 transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
+
             <div
               className="
               glass p-6 rounded-xl border border-white/10 
@@ -47,13 +90,12 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">Decentralized CrowdFunding</h3>
+              <h3 className="text-xl font-bold mb-2">SBW Trust</h3>
               <p className="text-gray-400 mb-4">
-              Developed a decentralized crowdfunding web app enabling secure,
-               transparent fundraising with blockchain technology.
+               SBW Trust, a non-profit organization dedicated to education and empowerment.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Solidity", "MetaMask", "ThirdWeb"].map((tech, key) => (
+                {["HTML", "CSS", "JS", "Bootstrap"].map((tech, key) => (
                   <span
                     key={key}
                     className="
@@ -70,7 +112,8 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://www.sbwtrust.org/"
+                  target="blank"
                   className="text-pink-400 hover:text-pink-300 transition-colors my-4"
                 >
                   View Project →
@@ -111,6 +154,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="https://www.portfolio.gokulcb.com/"
+                  target="blank"
                   className="text-pink-400 hover:text-pink-300 transition-colors my-4"
                 >
                   View Project →
@@ -118,44 +162,7 @@ export const Projects = () => {
               </div>
             </div>
 
-            <div
-              className="
-              glass p-6 rounded-xl border border-white/10 
-              hover:-translate-y-1 hover:border-pink-500/30
-              hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
-              transition-all
-            "
-            >
-              <h3 className="text-xl font-bold mb-2">Fake news Detection</h3>
-              <p className="text-gray-400 mb-4">
-              Developed a fake news detection system using web scraping, machine learning, and 
-              automated testing for accurate verification.
-              </p>
-              <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Python", "Tensorflow", "Reddit Api"].map((tech, key) => (
-                  <span
-                    key={key}
-                    className="
-                      bg-pink-500/10 text-pink-500 py-1 px-3 
-                      rounded-full text-sm
-                      transition
-                      hover:bg-pink-500/20 hover:-translate-y-0.5
-                      hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]
-                    "
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-              <div className="flex justify-between items-center ">
-                <a
-                  href="https://github.com/6127613876-1/fakenews"
-                  className="text-pink-400 hover:text-pink-300 transition-colors my-4"
-                >
-                  View Project →
-                </a>
-              </div>
-            </div>
+            
           </div>
         </div>
       </RevealOnScroll>
