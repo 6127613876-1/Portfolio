@@ -36,7 +36,7 @@ export const Projects = () => {
                   target="blank"
                   className="text-pink-400 hover:text-pink-300 transition-colors my-4"
                 >
-                  View Project →
+                  Live Demo →
                 </a>
               </div>
             </div>
@@ -77,7 +77,7 @@ export const Projects = () => {
                   target="blank"
                   className="text-pink-400 hover:text-pink-300 transition-colors my-4"
                 >
-                  View Project →
+                  Live Demo →
                 </a>
               </div>
             </div>
@@ -116,7 +116,7 @@ export const Projects = () => {
                   target="blank"
                   className="text-pink-400 hover:text-pink-300 transition-colors my-4"
                 >
-                  View Project →
+                  Live Demo →
                 </a>
               </div>
             </div>
@@ -157,7 +157,7 @@ export const Projects = () => {
                   target="blank"
                   className="text-pink-400 hover:text-pink-300 transition-colors my-4"
                 >
-                  View Project →
+                  Live Demo →
                 </a>
               </div>
             </div>
